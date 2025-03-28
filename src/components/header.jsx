@@ -1,5 +1,6 @@
 import logo from '../assets/xhield-logo.png';
 import phone from '../assets/phone.png';
+import { IoMenuSharp } from "react-icons/io5";
 
 function Header() {
     return (
@@ -21,6 +22,9 @@ function Header() {
                     <p className='text-[26px] font-bold'>(+234 703 303 6373)</p>
                 </div>
             </a>
+            <div className='mobileOnly text-black text-5xl mr-5'>
+                <IoMenuSharp />
+            </div>
         </div>
     );
 }

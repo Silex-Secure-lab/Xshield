@@ -56,7 +56,9 @@ button:focus-visible {
   user-select: none;
   /* Standard syntax */
 }
-
+.mobileOnly{
+  display: none;
+}
 @media (max-width: 450px) {
   .mobile-justify {
     justify-content: center;
@@ -132,5 +134,8 @@ button:focus-visible {
     margin-left: auto;
     margin: auto;
     margin-bottom: auto;
+  }
+  .mobileOnly{
+    display: block;
   }
 }

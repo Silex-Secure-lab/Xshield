@@ -90,7 +90,7 @@ function Premier() {
                     </div>
 
                     <img src={shield} alt='lexus' className='w-[45%] h-full ml-[-20px] mobile-width-full noMarginL' />
-                    <img src={surveil} alt='lexus' className='w-[45%] h-full ml-[-110px] mb-[-30px] mobile-width-full noMarginL' />
+                    <img src={surveil} alt='lexus' className='w-[45%] h-full ml-[-110px] mb-[-30px] mobile-width-full noMarginL nodisplay' />
 
                 </div>
             </div>
