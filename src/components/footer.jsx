@@ -3,7 +3,7 @@ import footerLogo from '../assets/footerLogo.png';
 
 function Footer() {
     return (
-        <div className="bg-[#000000] text-[14px] text-[#ffffff] flex justify-between w-[100%] px-[6%] mt-20 pb-10">
+        <div className="bg-[#000000] text-[14px] text-[#ffffff] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 flex-wrap w-[100%] px-[6%] mt-20 pb-10">
             <img src={footerLogo} alt='logo' />
             <div className='flex flex-col gap-0.5'>
                 <h6 className='text-[17px] font-normal !mb-3'>PRODUCTS</h6>

@@ -6,13 +6,13 @@ import { Autoplay } from "swiper/modules";
 
 import slide1 from "../assets/slide1.png";
 import slide2 from "../assets/slider2.png";
-import slide3 from "../assets/slider3.png";
+// import slide3 from "../assets/slider3.png";
 
 function Hero() {
     return (
         <div className="!max-h-[100vh]"
         >
-            <Swiper
+            <Swiper className="w-[100%]"
                 modules={[Autoplay]}
                 autoplay={{ delay: 3000, disableOnInteraction: false }}
                 loop={true}

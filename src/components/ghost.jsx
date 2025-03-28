@@ -9,8 +9,8 @@ import logo5 from '../assets/logo5.png';
 function Ghost() {
     return (
         <>
-            <div className="bg-[#000000] text-[#AAAAAA] flex justify-between w-[100%] px-[10%] !mt-20">
-                <div className='max-w-[38%]  py-10'>
+            <div className="bg-[#000000] text-[#AAAAAA] flex justify-between w-[100%] px-[10%] !mt-20 mobile-flex-col">
+                <div className='max-w-[38%] py-10 mobile-width-full'>
                     <h6 className='text-[#8E6C5F] text-[17px] font-semibold leading-[1.35]'>Dedicated to Protecting Lives, Securing Critical Assets and Enhancing National Security.</h6>
                     <p className='!mt-2 text-[14px] text-white font-medium !mb-5'>Strategic Partnership with DICON</p>
                     <p>X-shield’s strategic collaboration with the Defence Industries
@@ -24,17 +24,17 @@ function Ghost() {
                         by locally manufacturing and supplying armoured vehicles,
                         military hardware, and a broad array of security equipment.</p>
                 </div>
-                <div className='max-w-[52%] mt-[-50px]'>
-                    <img src={ghost} alt='' className='ml-[90px]' />
+                <div className='max-w-[52%] mt-[-50px] mobile-width-full'>
+                    <img src={ghost} alt='' className='ml-[90px] noMarginL' />
                 </div>
             </div>
             <div className='mt-10 mb-10'>
                 <div className='flex justify-between items-center'>
-                    <div className='w-[40%] h-[0.5px] bg-[#8E6C5F] opacity-50' />
-                    <p className='font-semibold text-[14px]'>Military Components</p>
-                    <div className='w-[47%] h-[0.5px] bg-[#8E6C5F] opacity-50'  />
+                    <div className='w-[40%] h-[0.5px] bg-[#8E6C5F] opacity-50 mobile-35'/>
+                    <p className='font-semibold text-[14px] text-nowrap'>Military Components</p>
+                    <div className='w-[47%] h-[0.5px] bg-[#8E6C5F] opacity-50 mobile-45'  />
                 </div>
-                <div className='px-[10%] py-10 flex items-center gap-5'>
+                <div className='px-[10%] py-10 flex items-center gap-5 mobile-justify mobile-flex-col '>
                     <img src={logo1} alt='' className='w-[110px]' />
                     <img src={logo2} alt='' className='w-[110px]'/>
                     <img src={logo3} alt='' className='w-[110px]'/>

@@ -17,11 +17,19 @@ a {
   text-decoration: inherit;
   cursor: pointer;
 }
+
 a:hover {
   color: #272525;
   /* font-weight: 500; */
 }
-p,h1,h2,h3,h4,h5,h6{
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -35,13 +43,94 @@ body {
 
 button:focus,
 button:focus-visible {
-  outline:none;
+  outline: none;
 }
 
 * {
-  -webkit-user-select: none; /* For Safari */
-  -moz-user-select: none; /* For Firefox */
-  -ms-user-select: none; /* For Internet Explorer/Edge */
-  user-select: none; /* Standard syntax */
+  -webkit-user-select: none;
+  /* For Safari */
+  -moz-user-select: none;
+  /* For Firefox */
+  -ms-user-select: none;
+  /* For Internet Explorer/Edge */
+  user-select: none;
+  /* Standard syntax */
 }
 
+@media (max-width: 450px) {
+  .mobile-justify {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  .heightAuto {
+    height: auto;
+  }
+
+  .nodisplay {
+    display: none;
+  }
+
+  .mobile-width-full {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .mobile-width {
+    width: 100px;
+  }
+
+  .mobile-flex-col {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .paddingMobile {
+    width: fit-content;
+  }
+
+  .padding-No {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .ml-Noml {
+    margin: auto;
+  }
+
+  .mobile-35 {
+    width: 35%;
+  }
+
+  .mobile-45 {
+    width: 42%;
+  }
+
+  .marginTop-no {
+    margin-top: 0;
+  }
+
+  .justity {
+    justify-content: flex-start ;
+  }
+  .paddingLeft-min{
+    padding-left: 30px;
+  }
+  .ml-yesml{
+    margin-left: -150px;
+  }
+  .paddingY-less{
+    padding-top: 20px;
+  }
+  .noMarginL{
+    margin-left: auto;
+    margin: auto;
+    margin-bottom: auto;
+  }
+}

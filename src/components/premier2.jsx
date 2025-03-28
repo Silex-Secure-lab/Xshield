@@ -3,15 +3,15 @@ import meva from '../assets/MEVA.png'
 
 function PremierWhite() {
     return (
-        <div className="bg-[#eaeaf5] text-black flex justify-between w-[100%] px-[6%] !mt-20 py-20">
-            <div className='max-w-[46%]'>
+        <div className="bg-[#eaeaf5] text-black flex justify-between w-[100%] px-[6%] !mt-20 py-20 mobile-flex-col">
+            <div className='max-w-[46%] mobile-width-full'>
                 <h4 className='text-[#7C5E50] text-[32px] font-medium'>Premier Defence and Security</h4>
                 <h4 className='text-[#6C6C81] text-[32px] font-medium !mt-[-10px]'>Solutions Provider</h4>
                 <p className='!mt-6 text-[#4D4D54]'>X-Shield prides itself on adhering to stringent international standards for product design, manufacturing, and testing. Our in-house team of technicians, engineers, and security experts collaborate to deliver products that not only meet but exceed client expectations.</p>
                 
                 <img src={meva} alt='suv' title='MEVA' className='mt-[40px] cursor-pointer' />
             </div>
-            <div className='max-w-[46%]'>
+            <div className='max-w-[46%] mobile-width-full'>
                 <h4 className='text-[#7C5E50] text-[32px] font-semibold'>WHY CHOOSE <br /> X-SHIELD??</h4>
                 
                 <p className='!mt-2 text-[#4D4D54]'>X-Shield prides itself on adhering to stringent international standards for product design, manufacturing, and testing.
