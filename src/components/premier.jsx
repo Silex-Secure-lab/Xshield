@@ -8,7 +8,7 @@ import surveil from '../assets/surveillance.png';
 
 function Premier() {
     return (
-        <div className="flex justify-between pl-[15%] mt-[20px]">
+        <div className="flex justify-between pl-[10%] mt-[20px]">
             <div className='max-w-[43%] pt-20'>
                 <h4 className='text-[#f5f5f5] text-[32px] font-medium'>Premier Defence and Security</h4>
                 <h4 className='text-[#6C6C81] text-[32px] font-medium !mt-[-10px]'>Solutions Provider</h4>
@@ -24,7 +24,7 @@ function Premier() {
                     <img src={bike} alt='bike' title='Military Bike' className='cursor-pointer' />
                 </div>
             </div>
-            <div className='bg-white max-w-[47%] pl-[60px] '>
+            <div className='bg-white max-w-[47%] ml-[-50px] pl-[60px] '>
                 <div className='py-[30px] flex gap-10'>
                     <div className='bg-[#363643] max-w-[90px] flex flex-col h-fit items-center gap-7 p-5 pb-10'>
                         <p className='font-extrabold text-5xl'>01</p>
