@@ -44,7 +44,7 @@ function AboutPremier() {
                     borderBottom: "1px solid #ffffff "
                 }}/>
                 <p>Content</p>
-                <textarea type='email' className='border-none outline-0 w-[70%]'
+                <textarea className='border-none outline-0 w-[70%]'
                 style={{
                     borderBottom: "1px solid #ffffff "
                 }}/>

@@ -10,6 +10,9 @@ function Header() {
     const handleNavAbout = () => {
         navigate('/about');
     }
+    const handleNavContact = () => {
+        navigate('/contact');
+    }
 
     return (
         <div className='bg-white fixed top-0 z-50 h-[99px] flex w-[100%] justify-between items-center'
@@ -22,7 +25,7 @@ function Header() {
                 <a>CORORATE DIVISIONS</a>
                 <a>SERVICES</a>
             </div>
-            <a href='tel:+234 703 303 6373' rel='noreferrer' target='_blank'
+            <a onClick={handleNavContact}
                 className='bg-[#7C5E50] text-white py-[20px] w-[27%] flex justify-center gap-4 paddingMobile nodisplay'>
                 <img src={phone} alt='' className='w-[45px] h-[45px] !mt-[12px]' />
                 <div className='flex flex-col items-start'>
