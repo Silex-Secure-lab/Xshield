@@ -5,7 +5,7 @@ import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
 
 import slide1 from "../assets/slide1.png";
-import slide2 from "../assets/slider2.png";
+import slide2 from "../assets/sliding2.png";
 // import slide3 from "../assets/slider3.png";
 
 function Hero() {

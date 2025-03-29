@@ -1,21 +1,29 @@
 import logo from '../assets/xhield-logo.png';
 import phone from '../assets/phone.png';
 import { IoMenuSharp } from "react-icons/io5";
+import { useNavigate } from 'react-router-dom';
 
 function Header() {
+
+    const navigate = useNavigate();
+ 
+    const handleNavAbout = () => {
+        navigate('/about');
+    }
+
     return (
-        <div className='bg-white fixed top-0 z-50 h-[110px] flex w-[100%] justify-between items-center'
+        <div className='bg-white fixed top-0 z-50 h-[99px] flex w-[100%] justify-between items-center'
             style={{ boxShadow: "4px 11px 35px 0px #00000012" }}>
             <img src={logo} alt='' className='pl-[2%]' />
             <div className='text-[13px] flex justify-center items-center mr-[-40px] text-black gap-9 nodisplay'>
-                <a>ABOUT US</a>
+                <a onClick={handleNavAbout}>ABOUT US</a>
                 <a>DEFENSE SOLUTIONS</a>
                 <a>PRODUCTS AND SOLUTIONS</a>
                 <a>CORORATE DIVISIONS</a>
                 <a>SERVICES</a>
             </div>
             <a href='tel:+234 703 303 6373' rel='noreferrer' target='_blank'
-                className='bg-[#7C5E50] text-white py-[26px] w-[27%] flex justify-center gap-4 paddingMobile nodisplay'>
+                className='bg-[#7C5E50] text-white py-[20px] w-[27%] flex justify-center gap-4 paddingMobile nodisplay'>
                 <img src={phone} alt='' className='w-[45px] h-[45px] !mt-[12px]' />
                 <div className='flex flex-col items-start'>
                     <p className='text-[13px]'>Contact Sales</p>

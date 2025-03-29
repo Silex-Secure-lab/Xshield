@@ -4,6 +4,7 @@ import Premier from "../components/premier";
 import PremierWhite from "../components/premier2";
 import Ghost from "../components/ghost";
 import Footer from "../components/footer";
+import Military from "../components/military";
 
 function Home() {
     return (
@@ -13,6 +14,7 @@ function Home() {
             <Premier />
             <PremierWhite />
             <Ghost />
+            <Military />
             <Footer />
         </>
     );
