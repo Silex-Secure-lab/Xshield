@@ -6,6 +6,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Architecture from "./pages/Architecture";
+import VigilanceTowers from "./pages/VigilanceTowers";
+import CivilianVehicle from "./pages/CivilianVehicle";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
         <Route path="/architectural_armour" element={<Architecture />} />
+        <Route path="/vigilance_towers" element={<VigilanceTowers />} />
+        <Route path="/civilian_vehicle" element={<CivilianVehicle />} />
       </Routes>
     </Router>
   );

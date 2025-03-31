@@ -2,17 +2,17 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import Military from '../components/military';
 import ArchiHero from '../components/archiHero';
-import ArchiPremier from '../components/archiPremier';
-import ArchiDiscover from '../components/archiDiscover';
 import ArchiLocation from '../components/archiLocation';
+import VigilPremier from '../components/vigilancePremier';
+import CoreFeatures from '../components/coreFeatures';
 
-function Architecture() {
+function VigilanceTowers() {
   return (
     <div>
       <Header />
       <ArchiHero />
-      <ArchiPremier />
-      <ArchiDiscover />
+      <VigilPremier />
+      <CoreFeatures />
       <ArchiLocation />
       <Military />
       <Footer />
@@ -20,4 +20,4 @@ function Architecture() {
   )
 }
 
-export default Architecture
+export default VigilanceTowers

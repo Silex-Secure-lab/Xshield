@@ -1,4 +1,3 @@
-import { FiArrowUpRight } from "react-icons/fi";
 import arch1 from '../assets/arch1.png';
 import arch2 from '../assets/arch2.png';
 import arch3 from '../assets/arch3.png';
@@ -42,24 +41,22 @@ function ArchiDiscover() {
   ];
 
   return (
-    <div className="bg-black text-white px-[18%] py-10">
-      <h6 className="text-center text-[#EAB59F] text-[25px] font-semibold">
-        Tailored Defense Solutions to Meet Your Needs
+    <div className="bg-[#EEE9E9] text-[#808080] px-[15%] py-10">
+      <h6 className="text-center text-[#333333] text-[25px] font-semibold">
+      Discover  What  Makes  Us Unique
       </h6>
-      <h2 className="text-[14px] text-center !mt-2">
-        We serve as a Force Multiplier in strengthening Nigeria’s Defence Capabilities
-      </h2>
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20">
         {executives.map((card, index) => (
           <div
             key={index}
-            className={`cursor-pointer flex flex-col justify-center items-center p-5 bg-white text-[#808080]`}
+            className={`cursor-pointer flex flex-col justify-center p-7 rounded-[10px] text-[#808080]`}
+            style={{
+              border: "1px solid #D6D6D6"
+            }}
           >
-            <img src={card.img} alt={card.title} />
-            <div className="flex justify-between items-center w-full mt-5">
-              <p className="text-[14px] font-bold underline">{card.title}</p>
-              <FiArrowUpRight />
-            </div>
+          <img src={card.img} alt={card.title} className='w-[70px] h-[70px]'/>
+            <p className="text-[18px] text-[#333333] font-medium !mt-2">{card.name}</p>
+            <p className="text-[14px] font-normal !mt-2 ">{card.title}</p>
           </div>
         ))}
       </div>

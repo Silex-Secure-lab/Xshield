@@ -1,18 +1,17 @@
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Military from '../components/military';
-import ArchiHero from '../components/archiHero';
-import ArchiPremier from '../components/archiPremier';
-import ArchiDiscover from '../components/archiDiscover';
+import CivilHero from '../components/civilHero';
 import ArchiLocation from '../components/archiLocation';
+import CivilPremier from '../components/civilPremier';
+import CoreFeatures from '../components/coreFeatures';
 
-function Architecture() {
+function CivilianVehicle() {
   return (
     <div>
       <Header />
-      <ArchiHero />
-      <ArchiPremier />
-      <ArchiDiscover />
+      <CivilHero />
+      <CivilPremier />
       <ArchiLocation />
       <Military />
       <Footer />
@@ -20,4 +19,4 @@ function Architecture() {
   )
 }
 
-export default Architecture
+export default CivilianVehicle
