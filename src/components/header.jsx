@@ -13,6 +13,9 @@ function Header() {
     const handleNavContact = () => {
         navigate('/contact');
     }
+    const handleNavServices = () => {
+        navigate('/services');
+    }
 
     return (
         <div className='bg-white fixed top-0 z-50 h-[99px] flex w-[100%] justify-between items-center'
@@ -23,7 +26,7 @@ function Header() {
                 <a>DEFENSE SOLUTIONS</a>
                 <a>PRODUCTS AND SOLUTIONS</a>
                 <a>CORORATE DIVISIONS</a>
-                <a>SERVICES</a>
+                <a onClick={handleNavServices}>SERVICES</a>
             </div>
             <a onClick={handleNavContact}
                 className='bg-[#7C5E50] text-white py-[20px] w-[27%] flex justify-center gap-4 paddingMobile nodisplay'>
