@@ -8,6 +8,7 @@ import Services from "./pages/Services";
 import Architecture from "./pages/Architecture";
 import VigilanceTowers from "./pages/VigilanceTowers";
 import CivilianVehicle from "./pages/CivilianVehicle";
+import Defense from "./pages/DefensiveFighting";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/architectural_armour" element={<Architecture />} />
         <Route path="/vigilance_towers" element={<VigilanceTowers />} />
         <Route path="/civilian_vehicle" element={<CivilianVehicle />} />
+        <Route path="/defensive_fighting" element={<Defense />} />
       </Routes>
     </Router>
   );

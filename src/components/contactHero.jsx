@@ -2,8 +2,8 @@ import contact from '../assets/contect.png';
 
 function ContactHero() {
   return (
-    <div className='bg-white max-h-[100vh] mt-[90px]'>
-        <img src={contact} alt='' />
+    <div className='max-h-[100vh] bg-white w-[100%] mt-[90px]'>
+        <img src={contact} className='w-full' alt='' />
     </div>
   );
 }
