@@ -24,9 +24,9 @@ function Header() {
             <div className='text-[13px] flex justify-center items-center mr-[-40px] text-black gap-9 nodisplay'>
                 <a onClick={handleNavAbout}>ABOUT US</a>
                 <a>DEFENSE SOLUTIONS</a>
-                <a>PRODUCTS AND SOLUTIONS</a>
+                <a onClick={handleNavServices}>PRODUCTS AND SOLUTIONS</a>
                 <a>CORORATE DIVISIONS</a>
-                <a onClick={handleNavServices}>SERVICES</a>
+                <a>SERVICES</a>
             </div>
             <a onClick={handleNavContact}
                 className='bg-[#7C5E50] text-white py-[20px] w-[27%] flex justify-center gap-4 paddingMobile nodisplay'>
