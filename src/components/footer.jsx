@@ -4,7 +4,7 @@ function Footer() {
     return (
         <div className="bg-[#000000] text-[12px] text-[#ffffff] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 w-[100%] px-[6%] mt-20 pb-10 gap-6">
             {/* Logo: Standalone row on mobile */}
-            <div className="flex justify-center col-span-full">
+            <div className="flex justify-center -mt-5">
                 <img src={footerLogo} alt='logo' />
             </div>
 
