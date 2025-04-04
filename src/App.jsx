@@ -1,7 +1,6 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import Home from "./pages/Home";
-// import About from "./pages/About";
-// import NotFound from "./pages/NotFound";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
@@ -15,15 +14,33 @@ import WarHorse from "./pages/WarHorse";
 import BulletProof from "./pages/BulletProof";
 import Autonomous from "./pages/Autonomous";
 import Blanket from "./pages/Blanket";
+import PandS from "./pages/PandS";
+
+// ScrollToTop logic directly in App.jsx
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/products&_solutions" element={<PandS />} />
         <Route path="/architectural_armour" element={<Architecture />} />
         <Route path="/vigilance_towers" element={<VigilanceTowers />} />
         <Route path="/civilian_vehicle" element={<CivilianVehicle />} />

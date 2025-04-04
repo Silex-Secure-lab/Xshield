@@ -6,7 +6,7 @@ import logo5 from '../assets/logo5.png';
 
 function Military() {
     return (
-        <div className='mt-10 mb-10 noM10'>
+        <div className='mt-10 mb-10'>
             <div className='flex justify-between items-center'>
                 <div className='w-[40%] h-[0.5px] bg-[#8E6C5F] opacity-50 mobile-35' />
                 <p className='font-semibold text-[14px] text-nowrap'>Military Components</p>
