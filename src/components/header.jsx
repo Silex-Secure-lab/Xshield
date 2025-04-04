@@ -28,7 +28,7 @@ function Header() {
 
                 {/* Products Submenu */}
                 <div className="relative group cursor-pointer">
-                    <a className='cursor-pointer'>PRODUCTS AND SOLUTIONS</a>
+                    <a onClick={handleNavProduct} className='cursor-pointer'>PRODUCTS AND SOLUTIONS</a>
                     <div className="absolute top-full left-0 bg-[#8E6C5F] text-white shadow-md hidden group-hover:block z-50">
                         <Link to="/vigilance_towers"><p className="hover:font-bold py-2 cursor-pointer text-nowrap p-3">Autonomous Ballistic Vigilance Towers</p></Link>
                         <div className='w-full h-[2px] bg-white' />
@@ -51,7 +51,7 @@ function Header() {
                 <a onClick={handleNavCorporate} className='cursor-pointer'>CORPORATE DIVISIONS</a>
 
                 <div className="relative group cursor-pointer">
-                    <a className='cursor-pointer'>SERVICES</a>
+                    <a onClick={handleNavServices} className='cursor-pointer'>SERVICES</a>
                     <div className="absolute top-full left-0 bg-[#8E6C5F] text-white shadow-md hidden group-hover:block z-50">
                         <Link to="/civilian_vehicle"><p className="hover:font-bold py-2 cursor-pointer text-nowrap p-3">Vehicle Armouring Solutions</p></Link>
                         <div className='w-full h-[2px] bg-white' />
