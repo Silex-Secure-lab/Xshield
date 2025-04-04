@@ -9,6 +9,12 @@ import Architecture from "./pages/Architecture";
 import VigilanceTowers from "./pages/VigilanceTowers";
 import CivilianVehicle from "./pages/CivilianVehicle";
 import Defense from "./pages/DefensiveFighting";
+import Corporate from "./pages/CorporateDivision";
+import PatrolTruck from "./pages/PatrolTruck";
+import WarHorse from "./pages/WarHorse";
+import BulletProof from "./pages/BulletProof";
+import Autonomous from "./pages/Autonomous";
+import Blanket from "./pages/Blanket";
 
 function App() {
   return (
@@ -22,6 +28,12 @@ function App() {
         <Route path="/vigilance_towers" element={<VigilanceTowers />} />
         <Route path="/civilian_vehicle" element={<CivilianVehicle />} />
         <Route path="/defensive_fighting" element={<Defense />} />
+        <Route path="/corporate_division" element={<Corporate />} />
+        <Route path="/patrol_truck" element={<PatrolTruck />} />
+        <Route path="/war_horse" element={<WarHorse />} />
+        <Route path="/bulletproof" element={<BulletProof />} />
+        <Route path="/autonomous" element={<Autonomous />} />
+        <Route path="/shield_blanket" element={<Blanket />} />
       </Routes>
     </Router>
   );

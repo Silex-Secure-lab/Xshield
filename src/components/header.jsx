@@ -16,6 +16,9 @@ function Header() {
     const handleNavServices = () => {
         navigate('/services');
     }
+    const handleNavCorporate = () => {
+        navigate('/corporate_division');
+    }
 
     return (
         <div className='bg-white fixed top-0 z-50 h-[99px] flex w-[100%] justify-between items-center'
@@ -24,9 +27,9 @@ function Header() {
             <div className='text-[13px] flex justify-center items-center mr-[-40px] text-black gap-9 nodisplay'>
                 <a onClick={handleNavAbout}>ABOUT US</a>
                 <a>DEFENSE SOLUTIONS</a>
-                <a onClick={handleNavServices}>PRODUCTS AND SOLUTIONS</a>
-                <a>CORORATE DIVISIONS</a>
-                <a>SERVICES</a>
+                <a>PRODUCTS AND SOLUTIONS</a>
+                <a onClick={handleNavCorporate}>CORORATE DIVISIONS</a>
+                <a onClick={handleNavServices}>SERVICES</a>
             </div>
             <a onClick={handleNavContact}
                 className='bg-[#7C5E50] text-white py-[20px] w-[27%] flex justify-center gap-4 paddingMobile nodisplay'>

@@ -142,4 +142,17 @@ button:focus-visible {
   .mobileOnly{
     display: block;
   }
+  .mobile-flex-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .noM10{
+    margin-top: -40px !important;
+  }
+  .mobile-Dfull{
+    width: 100% !important;
+  }
+  .mobilemt10{
+    margin-top: 40px;
+  }
 }
