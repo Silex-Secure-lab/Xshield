@@ -3,12 +3,12 @@ import check from '../assets/check.png'
 
 function AboutPremier() {
     return (
-        <div className="bg-[#000000] text-white flex justify-between w-[100%] px-[6%] !mt-20 py-20 mobile-flex-col">
+        <div className="bg-[#000000] text-white flex justify-between w-[100%] px-[6%] !mt-0 py-10 mobile-flex-col">
             <div className='max-w-[46%] mobile-width-full'>
-                <h4 className='text-[#7C5E50] text-[32px] font-medium'>Why Choose X-Shield?</h4>
-                <p className='!mt-10 text-[#ffffff]'>X-Shield prides itself on adhering to stringent international standards for product design, manufacturing, and testing. Our in-house team of technicians, engineers, and security experts collaborate to deliver products that not only meet but exceed client expectations.</p>
+                <h4 className='text-[#7C5E50] text-[30px] text-nowrap font-semibold'>Why Choose X-Shield?</h4>
+                <p className='!mt-5 text-[#ffffff]'>X-Shield prides itself on adhering to stringent international standards for product design, manufacturing, and testing. Our in-house team of technicians, engineers, and security experts collaborate to deliver products that not only meet but exceed client expectations.</p>
 
-                <div className='flex justify-center gap-5 items-center font-light mt-10'>
+                <div className='flex justify-center gap-5 items-center font-light mt-5'>
                     <div>
                         <div className='flex text-[15px] gap-1'>
                             <img src={check} alt='' className='w-[18px] h-[18px] items-start mt-[3px]' />
@@ -19,7 +19,7 @@ function AboutPremier() {
                             <p>Strategic Expertise: Years of experience in defence and security manufacturing.</p>
                         </div>
                     </div>
-                    <div className='w-[1px] h-[220px] bg-[#ffffff] opacity-50'/>
+                    <div className='w-[1px] h-[400px] md:h-[250px] bg-[#ffffff] opacity-50'/>
                     <div>
                         <div className='flex text-[15px] gap-1'>
                             <img src={check} alt='' className='w-[18px] h-[18px] items-start mt-[3px]' />

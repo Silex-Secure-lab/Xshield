@@ -11,7 +11,7 @@ function CoreFeatures() {
                 <p className="text-[32px] font-medium text-[#E5E5E5] text-center">Core Features</p>
                 <div className="w-[130px] h-[1px] bg-white m-auto mt-1" />
             </div>
-            <div className='flex justify-between items-center text-center mobile-flex-col'>
+            <div className='flex justify-between items-center text-center mobile-flex-col px-[15%] md:px-0'>
                 <div className='flex flex-col justify-center items-center'>
                     <img src={record} alt='' className='w-[35px] h-[35px]'/>
                     <p className='opacity-70 text-[14px]'>Equipped with advanced long-range Cameras, Communications and <br /> Artificial Intelligence systems</p>
@@ -21,7 +21,7 @@ function CoreFeatures() {
                     <p className='opacity-70 text-[14px]'>Purpose-built for deployment in remote areas, border <br/> communities, airports and oil and gas pipelines and <br/> installations</p>
                 </div>
             </div>
-            <div className='flex justify-between items-center text-center mt-10 mobile-flex-col'>
+            <div className='flex justify-between items-center text-center mt-10 mobile-flex-col px-[15%] md:px-0'>
                 <div className='flex flex-col justify-center items-center'>
                     <img src={locate2} alt='' className='w-[35px] h-[35px]'/>
                     <p className='opacity-70 text-[14px]'>Re-locatable and do not require any civil works to<br/> set up</p>

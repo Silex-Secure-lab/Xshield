@@ -18,10 +18,6 @@ a {
   cursor: pointer;
 }
 
-a:hover {
-  color: #272525;
-  /* font-weight: 500; */
-}
 
 p,
 h1,
@@ -94,6 +90,10 @@ button:focus-visible {
 
   .mobile-flex-col {
     flex-direction: column;
+    gap: 30px;
+  }
+  .mobile-flex-Rcol {
+    flex-direction: column-reverse;
     gap: 30px;
   }
 

@@ -3,10 +3,10 @@ import aboutPrem from '../assets/heroPrem.png';
 
 function HeroPremierWhite() {
     return (
-        <div className="bg-[#eaeaf5] text-black flex justify-between w-[100%] px-[6%] py-20 mobile-flex-col">
+        <div className="bg-[#eaeaf5] text-black flex justify-between w-[100%] px-[6%] py-10 mobile-flex-col">
             <div className='max-w-[46%] text-[#4A4A4B] mobile-width-full'>
-                <h4 className='text-[#7C5E50] text-[32px] font-medium'>Premier Defence and Security</h4>
-                <h4 className='text-[#7C5E50] text-[32px] font-medium !mt-[-10px]'>Solutions Provider</h4>
+                <h4 className='text-[#7C5E50] leading-[1.1] text-[32px] font-semibold'>Premier Defence and Security</h4>
+                <h4 className='text-[#7C5E50] text-[32px] font-semibold !mt-2 md:!mt-[-10px]'>Solutions Provider</h4>
                 <p className='!mt-6 text-[#4D4D54]'>X-Shield Solutions Company Limited is a Defence and Security Solutions Company and a strategic Joint Venture Partner of the Defence Industries Corporation of Nigeria (DICON), with a mission to address the increasing demand for top-tier security and military solutions such as armoured vehicles (Civilian and Tactical), military hardware, and advanced security equipment. X-Shield is dedicated to protecting lives and securing assets. As a strategic
                     player in the Military Industrial Complex in Nigeria, we are at the forefront of advanced vehicle armouring and the manufacturing of cutting-edge military hardware. Recognized as a pioneering Nigerian defence manufacturing company, X-Shield leverages cutting-edge technology, rigorous quality standards, and a dedicated workforce to deliver products that enhance security and
                     operational capabilities for Military, Governmental and Private entities.</p>
@@ -17,15 +17,15 @@ function HeroPremierWhite() {
                 <p className='!mt-5 text-[28px] font-medium text-[#000000]'>Core Expertise</p>
             </div>
             <div className='max-w-[46%] mobile-width-full'>
-                <h4 className='text-[#8E6C5F] text-[28px] leading-[1.3] font-medium'>Mission <br /> Statement</h4>
+                <h4 className='text-[#8E6C5F] text-[28px] leading-[1.3] font-semibold'>Mission Statement</h4>
 
                 <p className='!mt-2 text-[#4D4D54]'>To deliver state-of-the-art defence and security solutions that enable our clients to counter evolving threats, protect critical assets, and uphold the highest standards of safety.</p>
-                <h4 className='text-[#8E6C5F] text-[28px] leading-[1.3] font-medium !mt-5'>Vision <br /> Statement</h4>
+                <h4 className='text-[#8E6C5F] text-[28px] leading-[1.3] font-semibold !mt-5'>Vision Statement</h4>
 
                 <p className='!mt-2 text-[#4D4D54]'>To lead the industry in developing groundbreaking solutions that anticipate and address emerging challenges, setting the standard for excellence in defence and security.</p>
 
 
-                <div className='flex flex-col !gap-0 mt-[110px] mb-7'>
+                <div className='flex flex-col !gap-0 mt-10 md:mt-[110px] mb-7'>
                     <h2 className='font-bold text-[#7C5E50] text-[28px] text-left !mb-2'>Core Values - RICE</h2>
                     <div className=' p-5 w-[100%] py-2'>
                         <p className='font-bold'>Responsibility</p>

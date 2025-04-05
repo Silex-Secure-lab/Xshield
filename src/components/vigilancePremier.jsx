@@ -3,8 +3,8 @@ import tower from '../assets/tower.png'
 
 function VigilPremier() {
     return (
-        <div className="bg-[#ffffff] text-[#333333] w-[100%] px-[6%] py-20 flex justify-between mobile-flex-col">
-            <div className='w-[40%]'>
+        <div className="bg-[#ffffff] text-[#333333] w-[100%] px-[6%] py-20 flex justify-between mobile-flex-Rcol">
+            <div className='w-[40%] mobile-width-full'>
                 <img src={tower} alt='' />
             </div>
             <div className='max-w-[49%] mobile-width-full flex flex-col gap-5 mt-5'>

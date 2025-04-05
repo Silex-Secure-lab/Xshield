@@ -11,7 +11,7 @@ function BulletCore() {
     return (
         <div className="bg-[#000000] text-[#E5E5E5] w-[100%] px-[8%] py-5 mb-10">
             <p className="text-[32px] font-medium text-[#E5E5E5] !mb-10">Core Features</p>
-            <div className="grid grid-cols-2 sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2 text-[15px] gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2 text-[15px] gap-5">
 
                 <div className='flex items-center rounded-[10px] px-8 gap-2 py-9'
                     style={{

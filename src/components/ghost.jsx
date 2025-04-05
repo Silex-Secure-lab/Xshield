@@ -21,7 +21,7 @@ function Ghost() {
                         military hardware, and a broad array of security equipment.</p>
                 </div>
                 <div className='max-w-[52%] mt-[-50px] mobile-width-full'>
-                    <img src={ghost} alt='' className='ml-[90px] noMarginL' />
+                    <img src={ghost} alt='' className='md:ml-[90px] ml-5' />
                 </div>
             </div>
             

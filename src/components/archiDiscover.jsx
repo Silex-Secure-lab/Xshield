@@ -41,11 +41,11 @@ function ArchiDiscover() {
   ];
 
   return (
-    <div className="bg-[#EEE9E9] text-[#808080] px-[15%] py-10">
+    <div className="bg-[#EEE9E9] text-[#808080] px-[6%] md:px-[15%] py-10">
       <h6 className="text-center text-[#333333] text-[25px] font-semibold">
       Discover  What  Makes  Us Unique
       </h6>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
         {executives.map((card, index) => (
           <div
             key={index}

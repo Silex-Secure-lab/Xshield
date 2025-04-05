@@ -11,7 +11,7 @@ import core from '../assets/coreImg.png';
 function WarHorseCore() {
     return (
         <div className="bg-[#000000] text-[#E5E5E5] w-[100%] px-[8%] py-5 mb-10">
-            <div className="flex justify-between text-[15px]">
+            <div className="flex justify-between text-[15px] mobile-flex-col">
                 <div>
                     <p className="text-[32px] font-medium text-[#E5E5E5] !mb-5">Core Features</p>
                     <div className='flex items-center rounded-[6px] p-3 mt-10 gap-3 py-6'
@@ -40,7 +40,7 @@ function WarHorseCore() {
                     <img src={core} alt="" />
                 </div>
                 <div>
-                    <div className='flex items-center rounded-[6px] p-3 mt-22 gap-3 py-6'
+                    <div className='flex items-center rounded-[6px] p-3 md:mt-20 gap-3 py-6'
                         style={{
                             border: "1px solid #D6D6D6"
                         }}>
@@ -63,7 +63,7 @@ function WarHorseCore() {
                     </div>
                 </div>
             </div>
-            <div className='flex justify-between items-center'>
+            <div className='flex justify-between items-center mobile-flex-col mt-10 md:mt-0'>
                 <div className='flex items-center rounded-[6px] p-3 mt-4 gap-3 py-6'
                     style={{
                         border: "1px solid #D6D6D6"

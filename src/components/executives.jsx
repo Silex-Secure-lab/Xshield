@@ -48,7 +48,7 @@ function Executive() {
     return (
         <div className="bg-black text-white px-[9%] py-10">
             <h6 className="text-center text-[20px]">Meet our executives</h6>
-            <h2 className="text-[38px] font-extrabold text-center">X-Shield Leadership Team</h2>
+            <h2 className="text-[35px] leading-[1.2] !mt-5 font-bold text-center">X-Shield Leadership Team</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-20">
                 {executives.map((card, index) => (
                     <div key={index} className='flex flex-col justify-center items-center'>

@@ -1,14 +1,12 @@
-import check from '../assets/check.png'
-
 
 function ContactHelp() {
     return (
-        <div className="bg-[#ffffff] text-[#4A4A4B] flex justify-between w-[100%] px-[6%] !mt-20 py-20 mobile-flex-col">
+        <div className="bg-[#ffffff] text-[#4A4A4B] flex justify-between w-[100%] px-[6%] py-15 mobile-flex-col">
             
             <form className='w-[100%] px-[3%] flex flex-col gap-7 mobile-width-full'>
                 <p className='font-normal text-[13px]'>SEND US A MESSAGE</p>
                 <p className='font-bold text-[32px] text-[#8E6C5F]'>Contact Us</p>
-                <p className='font-normal max-w-[45%] !mb-5'>We are happy to answer your questions and provide you with technical specifications and pricing. Please fill out the form below, and one of our sales representatives will be in touch with you shortly.</p>
+                <p className='font-normal max-w-[45%] !mb-5 mobile-width-full'>We are happy to answer your questions and provide you with technical specifications and pricing. Please fill out the form below, and one of our sales representatives will be in touch with you shortly.</p>
 
                 <input type='text' placeholder='FullName*' className='border-none outline-0 w-[100%] py-1 text-[13px]'
                 style={{

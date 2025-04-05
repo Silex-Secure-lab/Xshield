@@ -63,7 +63,7 @@ function Header() {
                         <div className="relative group/iss cursor-pointer">
                             <p className="hover:font-bold py-2 cursor-pointer text-nowrap p-3 group-hover/iss:underline">Integrated Security Solutions</p>
 
-                            <div className="absolute top-0 left-full ml-2 bg-[#5A3F34] text-white shadow-md hidden group-hover/iss:block z-50 w-60">
+                            <div className="absolute top-0 left-full bg-[#5A3F34] text-white shadow-md hidden group-hover/iss:block z-50 w-60">
 
                                 <p className="hover:underline py-2 px-4 cursor-pointer text-nowrap">Command & Control <br /> <b>Infrastructure</b></p>
                                 <div className='w-full h-[2px] bg-white' />

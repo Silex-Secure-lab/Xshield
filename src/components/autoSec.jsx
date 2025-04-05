@@ -3,11 +3,11 @@ import arrow from '../assets/arRight.svg';
 
 function AutoSec() {
     return (
-        <div className="bg-[#000000] text-[#E5E5E5] w-[100%] px-[8%] py-20">
-            <h5 className="font-[600] leading-[1.3] text-[35px] text-center">AUTONOMOUS SURVEILLANCE <br />OUTPOST AND TOWER</h5>
-            
-            <div className='flex justify-between mt-10 text-[13.2px]'>
-                <div className='flex max-w-[47%] gap-5'>
+        <div className="bg-[#000000] text-[#E5E5E5] w-[100%] px-[8%] py-10">
+            <h5 className="font-[600] leading-[1.2] text-[35px] text-center">AUTONOMOUS SURVEILLANCE <br />OUTPOST AND TOWER</h5>
+
+            <div className='flex justify-between mt-10 text-[13.2px] mobile-flex-col'>
+                <div className='flex max-w-[47%] gap-5 mobile-width-full'>
                     <img src={check2} alt="" className='w-[30px] h-[30px]' />
                     <p> <b>Revolutionizing Survillance and Rapid Response </b>
 
@@ -20,13 +20,13 @@ function AutoSec() {
                     </p>
                 </div>
                 <div className='w-[2px] h-[400px] bg-[#E5E5E5] nodisplay' />
-                <div className='flex max-w-[47%] gap-5'>
+                <div className='flex max-w-[47%] gap-5 mobile-width-full'>
                     <img src={check2} alt="" className='w-[30px] h-[30px]' />
                     <p> <b>Autonomous Surveillance Outpost (ASO):Enhancing Vigilance and Quick Response</b>
 
                         <br /> <br />The Autonomous Surveillance Outpost or Tower (ASO) is a dynamic combination of surveillance and quick response stations designed to enhance the watch over remote border communities and high-value target areas and assets in order to forestall attacks or enhance response to distress calls. The ASO can be deployed as Surveillance and Quick Reaction Station standing as a sentinel, guarding against threats from non-state actors and bolstering surveillance for optimal response to attacks and criminal activities.
 
-<br /><br />The Autonomous Observation Outposts and Towers are equipped with state-of-the-art surveillance and communications technologies powered with renewable energy to operate 24/7. Their advanced capabilities make them the ideal equipment for mitigating security risks and upholding robust surveillance standards anywhere they are deployed. Due to their features as vigilant sentinels, the ASO empowers security forces to proactively defend innocent lives, assets and secure strategic locations and borders.
+                        <br /><br />The Autonomous Observation Outposts and Towers are equipped with state-of-the-art surveillance and communications technologies powered with renewable energy to operate 24/7. Their advanced capabilities make them the ideal equipment for mitigating security risks and upholding robust surveillance standards anywhere they are deployed. Due to their features as vigilant sentinels, the ASO empowers security forces to proactively defend innocent lives, assets and secure strategic locations and borders.
 
 
                     </p>

@@ -3,7 +3,7 @@ import meva from '../assets/MEVA.png'
 
 function PremierWhite() {
     return (
-        <div className="bg-[#eaeaf5] text-black flex justify-between w-[100%] px-[6%] !mt-20 py-20 mobile-flex-col">
+        <div className="bg-[#eaeaf5] text-black flex justify-between w-[100%] px-[6%] !mt-10 py-10 mobile-flex-col">
             <div className='max-w-[46%] mobile-width-full'>
                 <h4 className='text-[#7C5E50] text-[32px] font-medium'>Premier Defence and Security</h4>
                 <h4 className='text-[#6C6C81] text-[32px] font-medium !mt-[-10px]'>Solutions Provider</h4>

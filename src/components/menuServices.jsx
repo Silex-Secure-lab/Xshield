@@ -45,14 +45,14 @@ function MenuServices() {
   ];
 
   return (
-    <div className="bg-black text-white px-[18%] py-10">
-      <h6 className="text-center text-[#EAB59F] text-[25px] font-semibold">
+    <div className="bg-black text-white px-[8%] md:px-[18%] py-10">
+      <h6 className="text-center leading-[1.25] text-[#EAB59F] text-[25px] font-semibold">
         Tailored Defense Solutions to Meet Your Needs
       </h6>
-      <h2 className="text-[14px] text-center !mt-2">
+      <p className="text-[14px] text-center !mt-2">
         We serve as a Force Multiplier in strengthening Nigeria’s Defence Capabilities
-      </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20">
+      </p>
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
         {executives.map((card, index) => (
           <div
             key={index}

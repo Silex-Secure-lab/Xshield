@@ -5,10 +5,10 @@ import mid from '../assets/mid.png';
 
 function ServiceHeroBottom() {
   return (
-    <div className='bg-white max-h-[100vh] mb-[100px] relative'>
-      <img src={rr} alt='' className='w-[100%] h-[556px]'/>
-      <img src={mid} alt='' className='absolute top-0 left-[22%]'/>
-      <div className='absolute m-auto top-[20px] right-[10%] px-[40px] h-[80%] flex flex-col justify-center  w-[30%] bg-transparent'
+    <div className='bg-white max-h-[100vh] mb-[20px] relative'>
+      <img src={rr} alt='' className='w-[100%] h-[300px] md:h-[556px]'/>
+      <img src={mid} alt='' className='absolute top-0 left-[22%] nodisplay'/>
+      <div className='absolute m-auto top-0 md:top-[20px] md:right-[10%] px-[40px] h-[65%] md:h-[80%] flex flex-col justify-center w-[30%] bg-transparent mobile-width-full'
         style={{
           backdropFilter: "blur(4px)"
         }}>
@@ -17,7 +17,7 @@ function ServiceHeroBottom() {
           <img src={line} alt='' className='w-[10px]'/>
           <button className='text-[13px] flex gap-2 items-center text-[#000000] font-medium text-center bg-white uppercase px-3 py-2 w-[40%]'>
             <BsArrowRight />
-            <p>Get a quote</p>
+            <p className='text-nowrap'>Get a quote</p>
           </button>
         </div>
       </div>

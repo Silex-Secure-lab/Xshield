@@ -42,7 +42,7 @@ function DefenseSystem() {
         <div className="bg-[#ffffff] text-[#333333] w-[100%] px-[10%] py-20 mb-10">
             <h2 className='font-bold text-[35px] text-center'>DEFENSIVE FIGHTING SYSTEMS</h2>
             <p className='text-center mt-3'>Mobile Ballistic Shields For Enhanced Personnel Protection At Checkpoints And <br />Across Border Routes</p>
-            <div className='flex justify-center items-center'>
+            <div className='flex justify-center items-center mobile-flex-col'>
                 <img src={defense} alt="" />
                 <p>The Defensive Fighting System Series also known as Mobile Ballistic Shield is designed to protect against the ever-increasing risk of active shooter and terrorist threats by providing head-to-toe protection on a mobile platform and unparalleled ballistic protection for personnel.
 
@@ -52,10 +52,10 @@ function DefenseSystem() {
                 </p>
             </div>
             <div className="m-auto">
-                <p className="text-[32px] font-medium text-center">Core Features</p>
+                <p className="text-[32px] font-medium !mt-10 md:!mt-0 text-center">Core Features</p>
                 <div className="w-[130px] h-[1px] bg-[#333333] m-auto mt-1" />
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20">
+            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
                 {features.map((card, index) => (
                     <div key={index} className='text-[#0D0D0D] rounded-[6px] flex justify-betweeen gap-5 items-center p-3'
                     style={{

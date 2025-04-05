@@ -18,7 +18,7 @@ function Premier() {
                 <h4 className='text-[#E6C5B6] text-[20px] font-medium !mt-6'>PRODUCTS AND SOLUTIONS </h4>
                 <p className='!mt-2'>Delivering a broad array of specialized products and solutions tailored
                     to meet unique security challenges.</p>
-                <div className='flex gap-12 items-center mt-[-30px] mobile-flex-col marginTop-no justity'>
+                <div className='md:flex gap-12 items-center mt-[-30px] marginTop-no justify grid grid-cols-2'>
                     <img src={suv} alt='suv' title='SUV' className='cursor-pointer' />
                     <img src={drone} alt='drone' title='Drone' className='w-[90px] h-[90px] cursor-pointer' />
                     <img src={bike} alt='bike' title='Military Bike' className='cursor-pointer' />

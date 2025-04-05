@@ -5,12 +5,12 @@ import auto4 from '../assets/auto4.png';
 
 function AutoCore() {
     return (
-        <div className="bg-[#000000] text-[#E5E5E5] w-[100%] px-[8%] py-5 mb-10 mt-15">
+        <div className="bg-[#000000] text-[#E5E5E5] w-[100%] px-[8%] py-5 mb-10 mt-5">
             <div className="flex justify-between text-[15px]">
                 <div>
                     <p className="text-[32px] font-medium text-[#E5E5E5]">Core Features</p>
                     <div className="w-[130px] h-[1px] bg-white ml-5 mt-1 !mb-20" />
-                    <div className="grid grid-cols-2 sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2 text-[14px] text-[#6C6C81] gap-5">
+                    <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2 text-[14px] text-[#6C6C81] gap-5">
 
                         <div className='rounded-[10px] px-8 gap-2 py-5 bg-[#EEE9E9]'
                             style={{
