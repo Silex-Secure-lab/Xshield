@@ -10,7 +10,7 @@ function Footer() {
 
             {/* Content sections */}
             <div className='flex flex-col gap-0.5 pl-5'>
-                <h6 className='text-[15px] font-normal !mb-3'>PRODUCTS</h6>
+                <p className='text-[15px] font-normal !mb-2'>PRODUCTS</p>
                 <p className='cursor-pointer hover:underline'>Defense Solutions</p>
                 <p className='cursor-pointer hover:underline'>Secure Transportation</p>
                 <p className='cursor-pointer hover:underline'>Uplifting Solutions</p>
@@ -18,7 +18,7 @@ function Footer() {
                 <p className='cursor-pointer hover:underline'>Electric Vehicles</p>
             </div>
             <div className='flex flex-col gap-0.5 pl-5'>
-                <h6 className='text-[15px] font-normal !mb-3'>CORPORATE</h6>
+                <p className='text-[15px] font-normal !mb-2'>CORPORATE</p>
                 <p className='cursor-pointer hover:underline'>About Us</p>
                 <p className='cursor-pointer hover:underline'>Services</p>
                 <p className='cursor-pointer hover:underline'>Capabilities</p>
@@ -26,7 +26,7 @@ function Footer() {
                 <p className='cursor-pointer hover:underline'>News</p>
             </div>
             <div className='flex flex-col gap-0.5 pl-5'>
-                <h6 className='text-[15px] font-normal !mb-3'>RESOURCES</h6>
+                <p className='text-[15px] font-normal !mb-2'>RESOURCES</p>
                 <p className='cursor-pointer hover:underline'>Contact Us</p>
                 <p className='cursor-pointer hover:underline'>Request Quote</p>
                 <p className='cursor-pointer hover:underline'>Careers</p>
@@ -34,10 +34,10 @@ function Footer() {
                 <p className='cursor-pointer hover:underline'>Faq</p>
             </div>
             <div className='flex flex-col gap-0.5 pl-5'>
-                <h6 className='text-[15px] font-normal !mb-3'>CONTACT US</h6>
+                <p className='text-[15px] font-normal !mb-2'>CONTACT US</p>
                 <p className='cursor-pointer hover:underline'>Email: business@xshield.ng</p>
                 <p className='cursor-pointer hover:underline'>Phone: (+234) 703 303 6373</p>
-                <p className='cursor-pointer hover:underline'>Address: 28 Katampe Rd, Kado, <br />Jahi 900108, <br/>Abuja Nigeria. </p>
+                <p className='cursor-pointer hover:underline'>Address: 28 Katampe Rd, Kado, <br />Jahi 900108, <br />Abuja Nigeria. </p>
             </div>
         </div>
     );

@@ -2,7 +2,7 @@ import service from '../assets/service.png';
 
 function ServiceHero() {
   return (
-    <div className='bg-white w-[100%] mt-[95px] relative'>
+    <div className='bg-white w-[100%] mt-[80px] relative'>
         <img src={service} alt='' className=''/>
         <div className='absolute m-auto top-[0px] md:top-[180px] flex flex-col justify-center items-center w-[100%]'>
           <p className='text-[#E5E5E5] text-[26px] md:text-[45px] font-medium text-center'>Our Services</p>

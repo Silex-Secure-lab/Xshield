@@ -25,12 +25,12 @@ function CorporateDivision() {
     ]
 
  return (
-    <div className="bg-[#ffffff] text-black w-[100%] px-[6%] py-20 mobile-flex-col">
+    <div className="bg-[#ffffff] text-black w-[100%] px-[6%] py-5 md:py-10 mobile-flex-col">
         <h4 className='text-[#7C5E50] text-[32px] font-bold text-center'>Corporate Divisions</h4>
-        <p className='!mt-2 text-center text-[#333333] capitalize'>X-Shield Solutions operates through four core divisions, each dedicated to delivering specialized<br /> solutions tailored to the evolving needs of our clients.</p>
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-20">
+        <p className='!mt-2 text-center text-[#333333] capitalize max-w-[60%] !m-auto mobile-width-full'>X-Shield Solutions operates through four core divisions, each dedicated to delivering specialized solutions tailored to the evolving needs of our clients.</p>
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-10">
             {divisions.map((card, index) => (
-                <div key={index} className='flex flex-col gap-6 justify-center'>
+                <div key={index} className='flex flex-col gap-4 justify-center'>
                     <p className='font-semibold text-[#7C5E50] text-[16px] !mt-2'>{card.title}</p>
                     <p className='text-[13px] max-w-[80%]'>{card.content}</p>
                     <p className='text-[13px] max-w-[80%]'>{card.bottom}</p>

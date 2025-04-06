@@ -5,9 +5,9 @@ import ghost from '../assets/ghost.png';
 function Ghost() {
     return (
         <>
-            <div className="bg-[#000000] text-[#AAAAAA] flex justify-between w-[100%] px-[10%] !mt-20 mobile-flex-col">
+            <div className="bg-[#000000] text-[#AAAAAA] flex justify-between w-[100%] px-[10%] mt-0 md:!mt-20 mobile-flex-col">
                 <div className='max-w-[38%] py-10 mobile-width-full'>
-                    <h6 className='text-[#8E6C5F] text-[17px] font-semibold leading-[1.35]'>Dedicated to Protecting Lives, Securing Critical Assets and Enhancing National Security.</h6>
+                    <h6 className='text-[#8E6C5F] text-[17px] font-semibold leading-[1.25]'>Dedicated to Protecting Lives, Securing Critical Assets and Enhancing National Security.</h6>
                     <p className='!mt-2 text-[14px] text-white font-medium !mb-5'>Strategic Partnership with DICON</p>
                     <p>X-shield’s strategic collaboration with the Defence Industries
                         Corporation of Nigeria ensures that our products meet the

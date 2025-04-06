@@ -36,11 +36,13 @@ body {
   overflow-x: hidden !important;
   font-family: 'Inter', sans-serif !important;
 }
-button{
+
+button {
   cursor: pointer;
   outline: none;
   border: 0;
 }
+
 button:focus,
 button:focus-visible {
   outline: none;
@@ -56,9 +58,11 @@ button:focus-visible {
   user-select: none;
   /* Standard syntax */
 }
-.mobileOnly{
+
+.mobileOnly {
   display: none;
 }
+
 @media (max-width: 450px) {
   .mobile-justify {
     justify-content: center;
@@ -69,6 +73,16 @@ button:focus-visible {
   body {
     width: 100% !important;
     overflow-x: hidden !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 25px;
+    line-height: 1.2;
   }
 
   .heightAuto {
@@ -92,6 +106,7 @@ button:focus-visible {
     flex-direction: column;
     gap: 30px;
   }
+
   .mobile-flex-Rcol {
     flex-direction: column-reverse;
     gap: 30px;
@@ -123,36 +138,45 @@ button:focus-visible {
   }
 
   .justity {
-    justify-content: flex-start ;
+    justify-content: flex-start;
   }
-  .paddingLeft-min{
+
+  .paddingLeft-min {
     padding-left: 30px;
   }
-  .ml-yesml{
+
+  .ml-yesml {
     margin-left: -150px;
   }
-  .paddingY-less{
+
+  .paddingY-less {
     padding-top: 20px;
   }
-  .noMarginL{
+
+  .noMarginL {
     margin-left: auto;
     margin: auto;
     margin-bottom: auto;
   }
-  .mobileOnly{
+
+  .mobileOnly {
     display: block;
   }
+
   .mobile-flex-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .noM10{
+
+  .noM10 {
     margin-top: -40px !important;
   }
-  .mobile-Dfull{
+
+  .mobile-Dfull {
     width: 100% !important;
   }
-  .mobilemt10{
+
+  .mobilemt10 {
     margin-top: 40px;
   }
 }

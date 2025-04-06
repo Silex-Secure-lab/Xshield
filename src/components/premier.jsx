@@ -9,19 +9,19 @@ import surveil from '../assets/surveillance.png';
 function Premier() {
     return (
         <div className="flex justify-between pl-[10%] mt-[20px] mobile-flex-col padding-No">
-            <div className='max-w-[43%] pt-20 mobile-width-full'>
-                <h4 className='text-[#f5f5f5] text-[32px] font-medium'>Premier Defence and Security</h4>
-                <h4 className='text-[#6C6C81] text-[32px] font-medium !mt-[-10px]'>Solutions Provider</h4>
+            <div className='max-w-[43%] pt-5 mobile-width-full'>
+                <h4 className='text-[#f5f5f5] text-[32px] font-medium leading-[1.2]'>Premier Defence and Security</h4>
+                <h4 className='text-[#6C6C81] text-[32px] font-medium !mt-[10px] md:!mt-[-10px]'>Solutions Provider</h4>
                 <p className='!mt-6'>X-Shield Solutions Company Limited is a Defence and Security Solutions Company and a strategic Joint Venture Partner of the Defence Industries Corporation of Nigeria (DICON), with a mission to address the increasing demand for top-tier security and military solutions such as armoured vehicles (Civilian and Tactical), military hardware, and advanced security equipment. X-Shield is dedicated to protecting lives and securing assets. As a strategic
                     player in the Military Industrial Complex in Nigeria, we are at the forefront of advanced vehicle armouring and the manufacturing of cutting-edge military hardware. Recognized as a pioneering Nigerian defence manufacturing company, X-Shield leverages cutting-edge technology, rigorous quality standards, and a dedicated workforce to deliver products that enhance security and
                     operational capabilities for Military, Governmental and Private entities.</p>
-                <h4 className='text-[#E6C5B6] text-[20px] font-medium !mt-6'>PRODUCTS AND SOLUTIONS </h4>
+                <h4 className='text-[#E6C5B6] !text-[20px] font-medium !mt-6'>PRODUCTS AND SOLUTIONS </h4>
                 <p className='!mt-2'>Delivering a broad array of specialized products and solutions tailored
                     to meet unique security challenges.</p>
-                <div className='md:flex gap-12 items-center mt-[-30px] marginTop-no justify grid grid-cols-2'>
+                <div className='md:flex gap-8 md:gap-12 items-center mt-[-30px] marginTop-no justify grid grid-cols-2'>
                     <img src={suv} alt='suv' title='SUV' className='cursor-pointer' />
                     <img src={drone} alt='drone' title='Drone' className='w-[90px] h-[90px] cursor-pointer' />
-                    <img src={bike} alt='bike' title='Military Bike' className='cursor-pointer' />
+                    <img src={bike} alt='bike' title='Military Bike' className='cursor-pointer -mt-15 md:mt-0' />
                 </div>
             </div>
             <div className='bg-white max-w-[47%] ml-[-50px] pl-[60px] mobile-width-full ml-Noml paddingLeft-min'>
