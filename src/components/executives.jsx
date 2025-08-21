@@ -22,17 +22,17 @@ function Executive() {
         },
         {
             img: frank,
-            name: "FRANK H. ANONGO",
+            name: "FRANK HEMEN ANONGO",
             title: "Production Manager",
         },
         {
             img: opeyemi,
-            name: "OPEYEMI OBAYAN",
+            name: "OPEYEMI T. OBAYAN",
             title: "ED, Defence and Security Services Division",
         },
         {
             img: nsisak,
-            name: "NSIKAK J. NELSON",
+            name: "NSIKAK JOSEPH NELSON",
             title: "ED, Technology and Cyber Division",
         },
         {
@@ -62,7 +62,7 @@ function Executive() {
                             <img src={card.img} alt='' className='w-full' />
                         </div>
                         <p className='font-bold text-[16px] !mt-2'>{card.name}</p>
-                        <p className='text-[13px] text-nowrap !capitalize'>{card.title}</p>
+                        <p className='text-[13px] text-center text-wrap !uppercase'>{card.title}</p>
                     </div>
                 ))}
             </div>
