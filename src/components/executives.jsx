@@ -1,49 +1,55 @@
 import noImg from '../assets/noImg.png';
 import exe1 from '../assets/exe1.png';
 import exe2 from '../assets/exe2.png';
+import charles from '../assets/charles.jpg';
+import frank from '../assets/frank.jpg';
+import opeyemi from '../assets/opeyemi.jpg';
+import nsisak from '../assets/nsisak.jpg';
+import tuasinde from '../assets/tuasinde.jpg';
 
 function Executive() {
     const executives = [
+        // {
+        //     img: noImg,
+        //     name: "CHARLES IBANGA",
+        //     title: "Chief Executive Officer & President",
+        // },
+
         {
-            img: noImg,
+            img: charles,
             name: "CHARLES IBANGA",
-            title: "Chief Executive Officer & President",
+            title: "MANAGING DIRECTOR",
         },
         {
-            img: exe1,
+            img: frank,
             name: "FRANK H. ANONGO",
-            title: "Production Manager / Quality Control",
+            title: "Production Manager",
         },
         {
-            img: exe2,
+            img: opeyemi,
             name: "OPEYEMI OBAYAN",
             title: "ED, Defence and Security Services Division",
         },
         {
-            img: noImg,
+            img: nsisak,
             name: "NSIKAK J. NELSON",
             title: "ED, Technology and Cyber Division",
         },
         {
-            img: noImg,
-            name: "CHARLES IBANGA",
-            title: "Chief Executive Officer & President",
+            img: tuasinde,
+            name: "TUASINDE EBIERE NICOLE",
+            title: "CUSTOMER RELATIONS MANAGER",
         },
-        {
-            img: noImg,
-            name: "CHARLES IBANGA",
-            title: "Chief Executive Officer & President",
-        },
-        {
-            img: noImg,
-            name: "CHARLES IBANGA",
-            title: "Chief Executive Officer & President",
-        },
-        {
-            img: noImg,
-            name: "CHARLES IBANGA",
-            title: "Chief Executive Officer & President",
-        },
+        // {
+        //     img: noImg,
+        //     name: "CHARLES IBANGA",
+        //     title: "Chief Executive Officer & President",
+        // },
+        // {
+        //     img: noImg,
+        //     name: "CHARLES IBANGA",
+        //     title: "Chief Executive Officer & President",
+        // },
     ]
     return (
         <div className="bg-black text-white px-[9%] py-10">
@@ -52,9 +58,11 @@ function Executive() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-20">
                 {executives.map((card, index) => (
                     <div key={index} className='flex flex-col justify-center items-center'>
-                        <img src={card.img} alt='' />
+                        <div className='md:w-[250px] md:h-[250px] overflow-hidden mb-2'>
+                            <img src={card.img} alt='' className='w-full' />
+                        </div>
                         <p className='font-bold text-[16px] !mt-2'>{card.name}</p>
-                        <p className='text-[13px] text-nowrap'>{card.title}</p>
+                        <p className='text-[13px] text-nowrap !capitalize'>{card.title}</p>
                     </div>
                 ))}
             </div>
