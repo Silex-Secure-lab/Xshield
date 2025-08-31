@@ -18,9 +18,9 @@ function Executive() {
         {
             img: charles,
             name: "CHARLES IBANGA",
-            title: "MANAGING DIRECTOR",
+            title: "Managing Director",
         },
-        
+
         {
             img: opeyemi,
             name: "OPEYEMI T. OBAYAN",
@@ -32,14 +32,14 @@ function Executive() {
             title: "ED, Technology and Cyber Division",
         },
         {
-            img: tuasinde,
-            name: "TUASINDE EBIERE NICOLE",
-            title: "CUSTOMER RELATIONS MANAGER",
-        },
-        {
             img: frank,
             name: "FRANK HEMEN ANONGO",
             title: "Production Manager",
+        },
+        {
+            img: tuasinde,
+            name: "TUASINDE EBIERE NICOLE",
+            title: "Customer Relations Manager",
         },
         // {
         //     img: noImg,
@@ -59,11 +59,11 @@ function Executive() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-20">
                 {executives.map((card, index) => (
                     <div key={index} className='flex flex-col justify-center items-center'>
-                        <div className='md:w-[250px] md:h-[250px] overflow-hidden mb-2'>
+                        <div className='lg:w-[270px] lg:h-[270px] overflow-hidden mb-2'>
                             <img src={card.img} alt='' className='w-full' />
                         </div>
                         <p className='font-bold text-[16px] !mt-2'>{card.name}</p>
-                        <p className='text-[13px] text-center text-wrap !uppercase'>{card.title}</p>
+                        <p className='text-[12px] text-center text-wrap'>{card.title}</p>
                     </div>
                 ))}
             </div>
