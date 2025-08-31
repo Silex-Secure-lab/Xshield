@@ -57,7 +57,8 @@ function Header() {
         <div className='bg-white fixed top-0 z-50 h-[80px] md:h-[99px] flex w-full justify-between items-center'
             style={{ boxShadow: "4px 11px 35px 0px #00000012" }}>
 
-            <img src={logo} alt='' className='pl-[2%] w-[80px] md:w-auto md:h-auto' onClick={toggleMenu} />
+            <Link to='/'><img src={logo} alt='' className='hidden md:block pl-[2%] w-[80px] md:w-auto md:h-auto' /></Link>
+            <img src={logo} alt='' className='md:hidden pl-[2%] w-[80px] md:w-auto md:h-auto' onClick={toggleMenu} />
 
             {/* Navigation Links */}
             <div className='text-[13px] flex justify-center items-center mr-[-40px] text-black gap-9 nodisplay'>

@@ -12,7 +12,7 @@ function Military() {
                 <p className='font-semibold text-[14px] text-nowrap'>Military Components</p>
                 <div className='w-[47%] h-[0.5px] bg-[#8E6C5F] opacity-50 mobile-45' />
             </div>
-            <div className='px-[10%] py-10 flex items-center gap-5 mobile-justify mobile-flex-2 '>
+            <div className='px-[10%] py-10 flex items-center gap-5 max-w-[99%] mx-auto overflow-x-auto'>
                 <img src={logo1} alt='' className='w-[110px]' />
                 <img src={logo2} alt='' className='w-[110px]' />
                 <img src={logo3} alt='' className='w-[110px]' />

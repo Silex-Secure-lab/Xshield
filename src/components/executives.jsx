@@ -20,11 +20,7 @@ function Executive() {
             name: "CHARLES IBANGA",
             title: "MANAGING DIRECTOR",
         },
-        {
-            img: frank,
-            name: "FRANK HEMEN ANONGO",
-            title: "Production Manager",
-        },
+        
         {
             img: opeyemi,
             name: "OPEYEMI T. OBAYAN",
@@ -39,6 +35,11 @@ function Executive() {
             img: tuasinde,
             name: "TUASINDE EBIERE NICOLE",
             title: "CUSTOMER RELATIONS MANAGER",
+        },
+        {
+            img: frank,
+            name: "FRANK HEMEN ANONGO",
+            title: "Production Manager",
         },
         // {
         //     img: noImg,
